@@ -78,7 +78,7 @@ class MyApp:
 	    global target
 	    global direction
 	    x1,y1,x2,y2 = drawpad.coords(target)
-            if x2 > 800:
+            if x2 > 500:
                 direction = - 5
             elif x1 < 0:
                 direction = 5
